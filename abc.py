@@ -5,6 +5,6 @@ print("The area of the circle with radius is = ", a)
 
 
 #Q2 Write a Python program to accept a filename from the user and print the extension of that.
-filename = input("Input the Filename: ")
-file_extension = filename.split(".")
-print ("The extension of the file is : " + repr(file_extension[-1]))
+fn= input("Enter Filename: ")
+f = fn.split(".")
+print ("Extension of the file is : " + f[-1])
